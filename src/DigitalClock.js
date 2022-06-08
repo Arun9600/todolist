@@ -15,7 +15,7 @@ setInterval(clock,1000);
     return (
     <>
     <div style={{textAlign:'center',marginTop:'30px'}}>
-      <h1>Digital Clock (IST)</h1>
+      <h1>Digital Clock</h1>
       <h2>{date.toLocaleTimeString()}</h2>
     </div>
     
