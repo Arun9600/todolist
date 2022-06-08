@@ -1,3 +1,4 @@
+import DigitalClock from "./DigitalClock";
 import Header from "./Header";
 import Lists from "./Lists";
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
           <Lists />
       </div>
    </div>
+   <DigitalClock />
     </>
   );
 }
