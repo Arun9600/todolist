@@ -4,15 +4,15 @@ import Lists from "./Lists";
 const App = () => {
   return (
     <>
-    <Header />
-   <div className="listContainer">
-      <div className="listsBox">
+      <Header />
+      <div className="listContainer">
+        <div className="listsBox">
           <Lists />
+        </div>
       </div>
-   </div>
-   <DigitalClock />
+      <DigitalClock />
     </>
   );
-}
+};
 
 export default App;
